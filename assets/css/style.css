@@ -1,0 +1,37 @@
+/* Estilos globales */
+body {
+    background: linear-gradient(120deg, #f7f9fc, #eef1f5);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#error {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #34495e;
+}
